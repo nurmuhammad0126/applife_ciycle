@@ -1,4 +1,4 @@
-import 'package:app_lifecicle/screens/image_screen.dart';
+import 'package:app_lifecicle/screens/computation_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -15,6 +15,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: ImageScreen());
+    return MaterialApp(home: ComputationScreen());
   }
 }

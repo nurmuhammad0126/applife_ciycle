@@ -23,6 +23,9 @@ class ItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(title: Text('Item $index'));
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+      child: Text('Item $index', style: TextStyle(fontSize: 20)),
+    );
   }
 }
